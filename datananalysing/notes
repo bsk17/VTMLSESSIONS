@@ -1,0 +1,23 @@
+# different methods to load data
+
+for data we can use the below website:
+    www.kaggle.com
+
+load csv using python lib
+using numpy
+using urlib (load data from server)
+using pandas (most recommended)
+using pandas and urlib (load data from server)
+
+--------------------------------------------------------------------------------------------------------
+
+# steps of data pre processing
+1. Load the data and separate dependent(output = y) and independent(input = x) data
+2. Manage missing data (jo data nhi hoga usko khud se bharna hoga nhi to kaam chalao)
+3. Encode Categorical data (kuch bhi string nhi hoga sab numerical format mm hoga)
+4. Training and testing dataset (alag alag data use krna hai)
+5. Feature scaling  (data kabhi integer aur float dono ho skta hai to usko change krna pdega)
+6. Feature selection (jo kaam ka feature nhi hai usko hatao)
+
+step2 ko krne k
+lie mising data ko mean brdo usually
