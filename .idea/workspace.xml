@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f6e789-467b-4b5f-8018-9b019c353b3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/datananalysing/Salary_Data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datananalysing/SimpleLinearRegressionmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datananalysing/evaulatingthemodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/datananalysing/evaulatingthemodel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,28 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datananalysing/SeperationMethods.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datananalysing/SimpleLinearRegressionmodel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" selection-start-line="13" selection-end-line="30" selection-end-column="50" />
+            <state relative-caret-position="235">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <element signature="e#2325#2352#0" expanded="true" />
+                <element signature="e#44#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/datananalysing/evaulatingthemodel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-              <folding>
-                <element signature="e#962#989#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datananalysing/Salary_Data.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -72,13 +68,16 @@
         <option value="$PROJECT_DIR$/datananalysing/FeatureImportanatSelection.py" />
         <option value="$PROJECT_DIR$/datananalysing/SeperationMethods.py" />
         <option value="$PROJECT_DIR$/datananalysing/evaulatingthemodel.py" />
+        <option value="$PROJECT_DIR$/datananalysing/SimpleLinearRegressiom.py" />
+        <option value="$PROJECT_DIR$/datananalysing/SimpleLinearRegressionmodel.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="673" />
-    <option name="width" value="694" />
-    <option name="height" value="720" />
+    <option name="x" value="-333" />
+    <option name="y" value="-14" />
+    <option name="width" value="1340" />
+    <option name="height" value="673" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,6 +96,11 @@
               <item name="VTMLSESSIONS" type="b2602c69:ProjectViewProjectNode" />
               <item name="VTMLSESSIONS" type="462c0819:PsiDirectoryNode" />
               <item name="datananalysing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VTMLSESSIONS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VTMLSESSIONS" type="462c0819:PsiDirectoryNode" />
+              <item name="pack1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,29 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.evaulatingthemodel">
-    <configuration name="FeatureImportanatSelection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="VTMLSESSIONS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datananalysing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datananalysing/FeatureImportanatSelection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.SimpleLinearRegressionmodel">
     <configuration name="RecursiveFeatureElimination" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="VTMLSESSIONS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,6 +169,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datananalysing/SeperationMethods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleLinearRegressionmodel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="VTMLSESSIONS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datananalysing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datananalysing/SimpleLinearRegressionmodel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SimpleLinearRegressionmodel" />
         <item itemvalue="Python.evaulatingthemodel" />
         <item itemvalue="Python.SeperationMethods" />
         <item itemvalue="Python.principlecomponentanalysing" />
         <item itemvalue="Python.RecursiveFeatureElimination" />
-        <item itemvalue="Python.FeatureImportanatSelection" />
       </list>
     </recent_temporary>
   </component>
@@ -265,12 +269,12 @@
       <workItem from="1561883710426" duration="7778000" />
       <workItem from="1561950766331" duration="81000" />
       <workItem from="1561960166969" duration="21000" />
-      <workItem from="1561983653795" duration="3081000" />
+      <workItem from="1561983653795" duration="6799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11150000" />
+    <option name="totallyTimeSpent" value="14868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="729" extended-state="6" />
@@ -281,7 +285,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42192692" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28239202" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,7 +299,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.34545454" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.5863636" />
       <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
     </layout>
   </component>
@@ -305,11 +309,12 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$SeperationMethods.coverage" NAME="SeperationMethods Coverage Results" MODIFIED="1561985375932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$FeatureSelection.coverage" NAME="FeatureSelection Coverage Results" MODIFIED="1561886498378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
-    <SUITE FILE_PATH="coverage/VTMLSESSIONS$evaulatingthemodel.coverage" NAME="evaulatingthemodel Coverage Results" MODIFIED="1561986645232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
+    <SUITE FILE_PATH="coverage/VTMLSESSIONS$evaulatingthemodel.coverage" NAME="evaulatingthemodel Coverage Results" MODIFIED="1561989348889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$correlation.coverage" NAME="correlation Coverage Results" MODIFIED="1561885199906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$RecursiveFeatureElimination.coverage" NAME="RecursiveFeatureElimination Coverage Results" MODIFIED="1561889213218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$principlecomponentanalysing.coverage" NAME="principlecomponentanalysing Coverage Results" MODIFIED="1561889241991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$FeatureImportanatSelection.coverage" NAME="FeatureImportanatSelection Coverage Results" MODIFIED="1561889085596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
+    <SUITE FILE_PATH="coverage/VTMLSESSIONS$SimpleLinearRegressionmodel.coverage" NAME="SimpleLinearRegressionmodel Coverage Results" MODIFIED="1561990330700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/datananalysing/principlecomponentanalysing.py">
@@ -321,9 +326,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datananalysing/ml1.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pack1/numpyExample.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -388,32 +390,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datananalysing/evaulatingthemodel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="e#3708#3735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datananalysing/Salary_Data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datananalysing/ml1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack1/matplotLibExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datananalysing/SeperationMethods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/datananalysing/ml2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="77" column="57" lean-forward="true" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
+        <state relative-caret-position="-714">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="19" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="e#1#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datananalysing/SeperationMethods.py">
+    <entry file="file://$PROJECT_DIR$/datananalysing/SimpleLinearRegressionmodel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" selection-start-line="13" selection-end-line="30" selection-end-column="50" />
+        <state relative-caret-position="235">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="e#2325#2352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datananalysing/evaulatingthemodel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-          <folding>
-            <element signature="e#962#989#0" expanded="true" />
+            <element signature="e#44#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
