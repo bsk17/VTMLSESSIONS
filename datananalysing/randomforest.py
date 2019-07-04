@@ -1,23 +1,18 @@
-# works with yes and no input and output
-# it works on information gain, entropy, proper gain
-# proper gain jiska attribute ka zyaada wo sabse pehle use hoga
-# proper gain = information gain - entropy
-#
-# this works on probability
-# when we have to check about the probability of some result we will use this method
 
+# the collection of decision trees will result in random forest
 #
+
+
 from pandas import read_csv
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
-from sklearn.naive_bayes import GaussianNB
 
 filename = 'Social_Network_Ads.csv'
 dataframe = read_csv(filename)
 
-X = dataframe.iloc[:, [2,3]].values
+X = dataframe.iloc[:, [2, 3]].values
 Y = dataframe.iloc[:, 4].values
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=7)
@@ -27,8 +22,7 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
-
-model = DecisionTreeClassifier(criterion='entropy', random_state=0)
+model = RandomForestClassifier(n_estimators=10, criterion='entropy', random_state=0)
 model.fit(X_train, Y_train)
 
 y_pred = model.predict(X_test)
