@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f6e789-467b-4b5f-8018-9b019c353b3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TITANIC/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TITANIC/gender_submission.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TITANIC/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TITANIC/titanic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TITANIC/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TITANIC/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TITANIC/titanicsurvival.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datananalysing/logisticregression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datananalysing/logisticregression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TITANIC/titanic.py" beforeDir="false" afterPath="$PROJECT_DIR$/TITANIC/titanic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datananalysing/KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/datananalysing/KNN.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +31,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TITANIC/titanic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="61" column="34" lean-forward="true" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TITANIC/titanicsurvival.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -44,14 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datananalysing/RecursiveFeatureElimination.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TITANIC/testing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-              <folding>
-                <element signature="e#191#218#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -88,12 +93,14 @@
         <option value="$PROJECT_DIR$/datananalysing/polynomialregression.py" />
         <option value="$PROJECT_DIR$/datananalysing/Social_Network_Ads.csv" />
         <option value="$PROJECT_DIR$/datananalysing/logisticregression.py" />
-        <option value="$PROJECT_DIR$/datananalysing/KNN.py" />
         <option value="$PROJECT_DIR$/datananalysing/flowerclassificationusingKNN.py" />
         <option value="$PROJECT_DIR$/datananalysing/NaiveBayes.py" />
         <option value="$PROJECT_DIR$/datananalysing/decisiontree.py" />
         <option value="$PROJECT_DIR$/datananalysing/randomforest.py" />
+        <option value="$PROJECT_DIR$/datananalysing/KNN.py" />
+        <option value="$PROJECT_DIR$/TITANIC/titanicsurvival.py" />
         <option value="$PROJECT_DIR$/TITANIC/titanic.py" />
+        <option value="$PROJECT_DIR$/TITANIC/testing.py" />
       </list>
     </option>
   </component>
@@ -108,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,6 +131,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,11 +152,11 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hp\PycharmProjects\VTMLSESSIONS\TITANIC" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hp\PycharmProjects\VTMLSESSIONS\datananalysing" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\PycharmProjects\VTMLSESSIONS\TITANIC" />
       <recent name="C:\Users\hp\PycharmProjects\VTMLSESSIONS\datananalysing" />
     </key>
   </component>
@@ -165,8 +172,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.titanic">
-    <configuration name="NaiveBayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.titanicsurvival">
+    <configuration name="KNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="VTMLSESSIONS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,7 +186,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datananalysing/NaiveBayes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datananalysing/KNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RecursiveFeatureElimination" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="VTMLSESSIONS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\PYTHON3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datananalysing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datananalysing/RecursiveFeatureElimination.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
@@ -210,28 +239,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decisiontree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="VTMLSESSIONS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\PYTHON3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datananalysing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datananalysing/decisiontree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="flowerclassificationusingKNN" type="PythonConfigurationType" factoryName="Python">
       <module name="VTMLSESSIONS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,45 +261,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logisticregression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="VTMLSESSIONS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datananalysing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TITANIC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datananalysing/logisticregression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TITANIC/testing.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="randomforest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="VTMLSESSIONS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\PYTHON3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datananalysing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datananalysing/randomforest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -320,21 +302,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="titanicsurvival" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="VTMLSESSIONS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TITANIC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TITANIC/titanicsurvival.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.flowerclassificationusingKNN" />
-      <item itemvalue="Python.logisticregression" />
-      <item itemvalue="Python.NaiveBayes" />
-      <item itemvalue="Python.decisiontree" />
-      <item itemvalue="Python.randomforest" />
       <item itemvalue="Python.titanic" />
+      <item itemvalue="Python.titanicsurvival" />
+      <item itemvalue="Python.KNN" />
+      <item itemvalue="Python.RecursiveFeatureElimination" />
+      <item itemvalue="Python.testing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.titanicsurvival" />
+        <item itemvalue="Python.testing" />
         <item itemvalue="Python.titanic" />
-        <item itemvalue="Python.randomforest" />
-        <item itemvalue="Python.decisiontree" />
-        <item itemvalue="Python.logisticregression" />
-        <item itemvalue="Python.NaiveBayes" />
+        <item itemvalue="Python.RecursiveFeatureElimination" />
+        <item itemvalue="Python.KNN" />
       </list>
     </recent_temporary>
   </component>
@@ -359,12 +363,13 @@
       <workItem from="1562061590043" duration="4873000" />
       <workItem from="1562146846164" duration="10338000" />
       <workItem from="1562229061025" duration="5311000" />
-      <workItem from="1562234836903" duration="4612000" />
+      <workItem from="1562234836903" duration="4746000" />
+      <workItem from="1562302360681" duration="906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44764000" />
+    <option name="totallyTimeSpent" value="45804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,12 +384,12 @@
     <frame x="-8" y="-8" width="1376" height="729" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17954545" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18181819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6677741" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53654486" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986711" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,30 +407,6 @@
       <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
       <window_info anchor="right" x="0" y="0" width="294" height="529" id="Documentation" order="5" side_tool="true" weight="0.32954547" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.175" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28239202" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986711" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32890365" />
-      <window_info anchor="bottom" x="20" y="272" width="1320" height="168" id="Python Console" order="12" weight="0.23255815" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.28484848" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
-      <window_info anchor="right" x="0" y="0" width="294" height="529" id="Documentation" order="5" side_tool="true" weight="0.32954547" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -437,19 +418,21 @@
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$SeperationMethods.coverage" NAME="SeperationMethods Coverage Results" MODIFIED="1561985375932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$logisticregression.coverage" NAME="logisticregression Coverage Results" MODIFIED="1562233024233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$correlation.coverage" NAME="correlation Coverage Results" MODIFIED="1561885199906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
-    <SUITE FILE_PATH="coverage/VTMLSESSIONS$titanic.coverage" NAME="titanic Coverage Results" MODIFIED="1562244976202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TITANIC" />
+    <SUITE FILE_PATH="coverage/VTMLSESSIONS$titanic.coverage" NAME="titanic Coverage Results" MODIFIED="1562303165810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TITANIC" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$FeatureImportanatSelection.coverage" NAME="FeatureImportanatSelection Coverage Results" MODIFIED="1561889085596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$decisiontree.coverage" NAME="decisiontree Coverage Results" MODIFIED="1562235867613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$polynomialregression.coverage" NAME="polynomialregression Coverage Results" MODIFIED="1562150188418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
+    <SUITE FILE_PATH="coverage/VTMLSESSIONS$titanicsurvival.coverage" NAME="titanicsurvival Coverage Results" MODIFIED="1562303364281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TITANIC" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$FeatureSelection.coverage" NAME="FeatureSelection Coverage Results" MODIFIED="1561886498378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$randomforest.coverage" NAME="randomforest Coverage Results" MODIFIED="1562244700117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$evaulatingthemodel.coverage" NAME="evaulatingthemodel Coverage Results" MODIFIED="1561989348889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$flowerclassificationusingKNN.coverage" NAME="flowerclassificationusingKNN Coverage Results" MODIFIED="1562156827833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
-    <SUITE FILE_PATH="coverage/VTMLSESSIONS$RecursiveFeatureElimination.coverage" NAME="RecursiveFeatureElimination Coverage Results" MODIFIED="1561889213218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$principlecomponentanalysing.coverage" NAME="principlecomponentanalysing Coverage Results" MODIFIED="1561889241991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
+    <SUITE FILE_PATH="coverage/VTMLSESSIONS$RecursiveFeatureElimination.coverage" NAME="RecursiveFeatureElimination Coverage Results" MODIFIED="1562302872349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
+    <SUITE FILE_PATH="coverage/VTMLSESSIONS$testing.coverage" NAME="testing Coverage Results" MODIFIED="1562303237084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TITANIC" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$NaiveBayes.coverage" NAME="NaiveBayes Coverage Results" MODIFIED="1562233001198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$SimpleLinearRegressionmodel.coverage" NAME="SimpleLinearRegressionmodel Coverage Results" MODIFIED="1562062342916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
-    <SUITE FILE_PATH="coverage/VTMLSESSIONS$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1562232974009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
+    <SUITE FILE_PATH="coverage/VTMLSESSIONS$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1562302855154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
     <SUITE FILE_PATH="coverage/VTMLSESSIONS$SAADHAmethod.coverage" NAME="SAADHAmethod Coverage Results" MODIFIED="1562059024576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datananalysing" />
   </component>
   <component name="editorHistoryManager">
@@ -609,23 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datananalysing/KNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datananalysing/logisticregression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/datananalysing/logisticregression.py" />
     <entry file="file://$PROJECT_DIR$/datananalysing/flowerclassificationusingKNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -707,10 +674,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datananalysing/KNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/datananalysing/RecursiveFeatureElimination.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="204">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
             <element signature="e#191#218#0" expanded="true" />
           </folding>
@@ -719,11 +693,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TITANIC/titanic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="61" column="34" lean-forward="true" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TITANIC/titanicsurvival.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TITANIC/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>

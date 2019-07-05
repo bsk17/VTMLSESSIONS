@@ -1,10 +1,8 @@
 import pandas as pd
 from sklearn.preprocessing import Imputer
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import confusion_matrix
 from sklearn.linear_model import LogisticRegression
 import warnings
-import numpy
 
 warnings.filterwarnings("ignore")
 
@@ -35,16 +33,16 @@ X_train[:, 5] = labelencoder_x.fit_transform(X_train[:, 5])
 X_test[:, 1] = labelencoder_x.fit_transform(X_test[:, 1])
 X_test[:, 5] = labelencoder_x.fit_transform(X_test[:, 5])
 
+print(X_train)
 # we are using logistic regression because it gives an accuracy of 96.6 %
 model = LogisticRegression(random_state=0)
 model.fit(X_train, Y_train)
 
 # now we will be taking input from the user and encoding them to predict correct input
-
 print("Let us check will you live or die !!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
 pclass = eval(input("Enter your ticket class (between 1-3) : "))
-gender = eval(input("Enter the gender (1 for male \t 2 for female) : "))
+gender = eval(input("Enter the gender (1 for male \t 0 for female) : "))
 age = eval(input("Enter your age : "))
 sibling = eval(input("Enter number of sibling : "))
 parch = eval(input("Enter number of parent/children"))
@@ -56,7 +54,8 @@ elif embarkment == 'Q':
 else:
     embarkment = 0
 
-prediction = numpy.array(pclass, gender, age, sibling, parch, embarkment)
-
-print("Your chance of survival is : ")
-print(model.predict([prediction]))
+survival = model.predict([[pclass, gender, float(age), sibling, parch, embarkment]])
+if survival == 0:
+    print("You should not go as you will not survive!")
+else:
+    print("You are all set to go")
