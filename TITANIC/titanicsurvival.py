@@ -46,6 +46,8 @@ gender = eval(input("Enter the gender (1 for male \t 0 for female) : "))
 age = eval(input("Enter your age : "))
 sibling = eval(input("Enter number of sibling : "))
 parch = eval(input("Enter number of parent/children"))
+
+# we have to convert the embarkment as we have encoded it so here we will decode and send
 embarkment = input("Enter the port of embarkment \nS for Southampton \nQ for Queenstown \nC for cherbourg")
 if embarkment == 'S':
     embarkment = 2
@@ -55,6 +57,8 @@ else:
     embarkment = 0
 
 survival = model.predict([[pclass, gender, float(age), sibling, parch, embarkment]])
+
+# the survival is in 1 or 0 to make it user friendly we will add it
 if survival == 0:
     print("You should not go as you will not survive!")
 else:
